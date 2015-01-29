@@ -1,0 +1,299 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 2. v2.0 | 20110126
+  License: none (public domain)
+*/
+
+/*@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,700,900);*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/*end CSS reset*/
+
+.circle {
+  height: 35px;
+  width: 35px;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  background: black;
+  border: 4px solid black;
+}
+
+.line {
+  clear: both;
+  height: 1px;
+  width: 100%;
+  background: silver;
+}
+
+#topbar {
+   margin-bottom: 100px;
+}
+
+#leftcorner {
+  position: relative;
+  background: white;
+  float: left;
+  top: -90px;
+  left: 10px;
+}
+
+#rightcorner {
+  position: relative;
+  float: right;
+  top: -90px;
+  right: 10px;
+}
+
+header {
+  margin-top: 50px;
+  clear: both;
+  text-align: center;
+}
+
+.outerlogo {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background: white;
+  margin-bottom: 10px;
+  border: 7px solid red;
+}
+  
+
+#logo {
+  position: relative;
+  top: 5px;
+  height: 90px;
+  width: 90px;
+  margin: 0 auto;
+  background: red;
+  border: none;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+}
+
+.button {
+  height: 30px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 200;
+  padding: 0 10px;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: silver;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+.button:hover {
+  border: 1px solid red;
+  background: red;
+  color: white;
+}
+
+#next {
+  position: relative;
+  margin: 10px auto;
+  width: 500px;
+  top: 10px;
+  bottom: 10px;
+}
+
+#next li {
+  float: right;
+  font-size: 50px;
+}
+
+header h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+#nav {
+  margin-top: 10px;
+}
+
+#nav li {
+  display: inline;
+}
+
+section {
+  position: relative;
+  margin: 10px auto;
+  width: 500px;
+  top: 10px;
+  bottom: 10px;
+}
+
+section a {
+  color: black;
+}
+
+section a:hover {
+  color: red;
+}
+
+.firstpost {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 900;
+  color: red;
+}
+
+section h1 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.date {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+  color: silver;
+}
+
+li {
+  display: inline;
+}
+
+footer {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#subscribe {
+  position: relative;
+  width: 500px;
+  margin: 0 auto;
+  top: 20px;
+}
+
+#subscribe p {
+  position: relative;
+  width: 150px;
+  font-weight: 200;
+  font-size: 13px;
+  float: right;
+}
+
+footer h2 {
+  font-weight: 900;
+}
+
+.searchfield {
+  height: 40px;
+  border-radius: 20px;
+  width: 300px;
+  font-weight: 300;
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+.searchfield:hover {
+  color: silver;
+  background: white;
+  border-color: silver;
+}
+
+.searchfield:focus {
+  outline: none;
+}
+
+.bottom {
+  clear: both;
+}
+
+#bottomleft {
+  float: left;
+}
+
+#bottomleft p {
+  font-weight: 900;
+}
+
+#bottomleft li {
+  display: inline;
+}
+
+#bottomleft .circle {
+  background: red;
+  position: relative;
+  top: 3px;
+  left: 3px;
+  height: 30px;
+  width: 30px;
+  border: white 2px solid;
+}
+
+#bottomleft .outerlogo {
+  height: 40px;
+  width: 40px;
+  border-width: 3px;
+}
+
+#bottomright {
+  float: right;
+}
+
+.foot {
+  position: relative;
+  top: 10px;
+  bottom: 5px;
+  font-weight: 300;
+  color: silver;
+}
+
+#bottomright .button {
+  border: white 1px solid;
+}
